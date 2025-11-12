@@ -17,11 +17,11 @@ export default async function BlogsPage() {
 
     return (
       <>
-      <div className="absolute  left-138 -z-10">
+
+      <div  className="relative max-w-3xl px-4  min-h-screen mx-auto">
+              <div className="absolute -left-4 -z-10">
             <Image src="/gif.gif" alt="cat-gif" height={50} width={200} />
         </div>
-      <div  className="max-w-3xl px-4  min-h-screen mx-auto">
-        
         <h1 className="text-6xl pt-40 font-semibold jp tracking-tighter">
           ブログ<span className="tracking-tighter">Blog.</span>
         </h1>
