@@ -37,16 +37,16 @@ export default async function SingleBlogPage({ params }: Props) {
   const { content, frontmatter } = blog;
 
   return (
-    <div className="min-h-screen flex items-start justify-start">
+    <div className="min-h-screen max-w-4xl w-full  mx-auto  flex items-start justify-start nunito">
       <div className="min-h-screen pt-8 px-8  md:pb-10">
         <Image
             src={frontmatter.image}
             alt={frontmatter.title}
             width={896} 
             height={384} 
-            className="rounded-2xl object-cover mx-auto mb-20 max-h-96 max-w-2xl w-full h-auto "
+            className="rounded-2xl object-cover mx-auto mb-20 max-h-96 max-w-2xl w-full h-auto shadow-2xl"
 />
-        <div className="prose dark:prose-invert mx-auto">{content}</div>
+        <div className="prose prose-img min-w-3xl mx-auto ">{content}</div>
       </div>
     </div>
   );

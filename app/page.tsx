@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { getBlogs } from "@/utils/mdx";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
     title: "Blog | Abhay Singh",
@@ -16,9 +17,13 @@ export default async function BlogsPage() {
 
     return (
       <>
+      <div className="absolute  left-138 -z-10">
+            <Image src="/gif.gif" alt="cat-gif" height={50} width={200} />
+        </div>
       <div  className="max-w-3xl px-4  min-h-screen mx-auto">
-        <h1 className="text-6xl pt-50 font-semibold tracking-tigher">
-          ブログ<span className="nunito">Blog.</span>
+        
+        <h1 className="text-6xl pt-40 font-semibold jp tracking-tighter">
+          ブログ<span className="tracking-tighter">Blog.</span>
         </h1>
         <div className="mt-16 p-4 hover:bg-neutral-100 rounded-xl transition-colors duration-400">
           {allBlogs.map((blog) => (
