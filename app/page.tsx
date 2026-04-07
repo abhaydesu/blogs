@@ -23,7 +23,7 @@ export default async function BlogsPage() {
             <Image src="/gif.gif" alt="cat-gif" height={50} width={200} />
         </div>
         <h1 className="text-6xl pt-40 font-semibold jp tracking-tighter">
-          ブログ<span className="tracking-tighter">Blog.</span>
+          私の<span className="tracking-tighter"> Blog.</span>
         </h1>
         <div className="mt-16 p-4 hover:bg-neutral-100 rounded-xl transition-colors duration-400">
           {allBlogs.map((blog) => (
