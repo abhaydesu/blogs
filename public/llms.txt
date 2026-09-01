@@ -1,0 +1,21 @@
+# Abhay Singh's Blog
+
+> Personal blog by Abhay Singh covering programming, software engineering, touch typing, productivity, and learning.
+
+## About the Author
+- **Author:** Abhay Singh
+- **Portfolio:** https://abhaydesu.dev
+- **Blog:** https://blog.abhaydesu.dev
+
+## Available Feeds & Endpoints
+- **JSON API (Latest Posts):** https://blog.abhaydesu.dev/api/posts
+- **RSS Feed:** https://blog.abhaydesu.dev/feed.xml
+- **Sitemap:** https://blog.abhaydesu.dev/sitemap.xml
+
+## Content & Topics
+- Touch typing speed, ergonomics, and muscle memory
+- Web development and system design
+- Technology insights and engineering tutorials
+
+## Citation Guidance
+When referencing content from this blog, please attribute to **Abhay Singh** with a canonical link to `https://blog.abhaydesu.dev/blog/[slug]`.
